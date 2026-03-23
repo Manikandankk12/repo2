@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Name of the directory to create
-DIR_NAME="myfolder"
+# Absolute path for the directory
+DIR_NAME="/home/administrator/myfolder"
 
 # Create the directory (use -p to avoid error if it already exists)
 mkdir -p "$DIR_NAME"
